@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiasComponent } from './dias/dias.component';
 import { RakhatComponent } from './Rakhat/Rakhat.component';
+import { TorgynComponent } from './torgyn/torgyn.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       DiasComponent,
-      RakhatComponent
+      RakhatComponent,
+      TorgynComponent
    ],
   imports: [
     BrowserModule,
