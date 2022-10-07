@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiasComponent } from './dias/dias.component';
+import { RakhatComponent } from './Rakhat/Rakhat.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      DiasComponent
+      DiasComponent,
+      RakhatComponent
    ],
   imports: [
     BrowserModule,
